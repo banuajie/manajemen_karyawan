@@ -1,18 +1,44 @@
-
+*{
+    box-sizing: border-box;
+}
 
 /* Mengatur font yang dipakai dan background halaman #038ade */
+body{
+    font-family: Arial;
+    background: #038ade;
+    margin: 0;
+}
 
-
-/* Membuat container menjadi layout flexbox dan kotak login ditengah */
-
+/* Membuat container menjadi layout flex dan kotak login ditengah */
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 /* Mengatur kotak form login lebar 400px dan background #fff */
-
+.login-box{
+    flex-basis: 400px;
+    margin-top: 150px;
+    background: #fff;
+    padding: 20px;
+}
 
 /* Mengatur judul form dengan warna #555 dan border bawah dengan warna #ccc dan posisi di tengah */
-
+.login-box h2{
+    color: #555;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 0 0 20px;
+}
 
 /* Mengatur agar tag input dan select memenuhi container dan tampilan lebih bagus (warna border #ccc) */
-
+input, select{
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+}
 
 /* Mengatur tampilan tombol submit (warna text #fff dengan background #038ade) */
