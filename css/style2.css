@@ -42,3 +42,10 @@ input, select{
 }
 
 /* Mengatur tampilan tombol submit (warna text #fff dengan background #038ade) */
+input[type=submit]{
+    color: #fff;
+    background-color: #038ade;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
