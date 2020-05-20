@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head>
-        <title>Login</title>
+        <title>Dashboard</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -9,15 +9,25 @@
     </head>
 
     <body>
+        <header>
+            Aplikasi Manajemen Pegawai
+        </header>
         <div class="container">
-            <div class="login-box">
-                <h2>Login Aplikasi</h2>
-                <form method="POST" action="cekLogin.php">
-                    <input type="text" id="username" placeholder="Username">
-                    <input type="password" id="password" placeholder="Password">
-                    <input type="submit" value="Login">
-                </form>
-            </div>
+            <aside>
+                <ul class="menu">
+                    <li><a href="dashboard.html" class="aktif">Dashboard</a></li>
+                    <li><a href="tabel.html">Pegawai</a></li>
+                    <li><a href="tabel.html">Jabatan</a></li>
+                    <li><a href="login.html">Keluar</a></li>
+                </ul>
+            </aside>
+            <section class="main">
+                <h1>Selamat Datang di Aplikasi Manajemen Pegawai</h1>
+                <h3>Anda login sebagai Administrator</h3>
+            </section>
         </div>
+        <footer>
+            Copyright &copy; Nugraha Banuajie
+        </footer>
     </body>
 </html>
